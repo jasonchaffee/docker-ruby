@@ -1,35 +1,70 @@
-*.gem
-*.rbc
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/test/tmp/
-/test/version_tmp/
-/tmp/
+# Compiled Source
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-## Specific to RubyMotion:
-.dat*
-.repl_history
-build/
+# Artifacts
+*.7z
+*.dmg
+*.ear
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.war
+*.zip
 
-## Documentation cache and generated files:
-/.yardoc/
-/_yardoc/
-/doc/
-/rdoc/
+# Logs
+*.log
 
-## Environment normalisation:
-/.bundle/
-/vendor/bundle
-/lib/bundler/man/
+# OS Files
+.DS_Store
 
-# for a library or gem, you might want to ignore these files since the code is
-# intended to run in multiple environments; otherwise, check them in:
-# Gemfile.lock
-# .ruby-version
-# .ruby-gemset
+# Maven Build Directory
+target
 
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
+# Idea IDE
+.idea
+.idea_modules
+*.iml
+*.launch
+
+# Eclipse IDE
+.classpath
+.project
+.jsdtscope
+.settings
+
+# sbt
+.cache/
+.history/
+.lib/
+dist/
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/project/
+project/target/
+project/plugins/project/
+out/
+
+# Scala-IDE
+.scala_dependencies
+.worksheet
+
+# Bower imports
+public/lib/
+public/app/assets/components/
+
+# Node modules
+node_modules/
+
+# Activator
+RUNNING_PID
+
