@@ -1,2 +1,2 @@
-# devbox-centos
-A Centos based dev Docker container
+# docker-ruby
+A ruby based Docker container
