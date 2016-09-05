@@ -1,6 +1,6 @@
-FROM ruby:2.1.3
+FROM ruby:2.3.0
 
-MAINTAINER Jason Chaffee <jasonchaffee@gmail.com>
+MAINTAINER Jason Chaffee <jason.chaffee+docker@gmail.com>
 
 RUN bundle config http://gems.peek.com/ peekgems:peekteamrocks5
 RUN gem install foreman
